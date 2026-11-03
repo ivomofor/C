@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <stdint.h>
 
 int main() {
-	printf("hello, C23..! \n");
-	return 0;
+    int *ptr = nullptr; //nullptr;
+    if (ptr == nullptr) {
+        printf("null");
+    }
+    return 0;
 }
